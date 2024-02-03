@@ -297,7 +297,7 @@
 
 #let cvskills(info, isbreakable: true) = {
     if (info.languages != none) or (info.skills != none) or (info.interests != none) {block(breakable: isbreakable)[
-        == Skills, Languages, Interests
+        == Skills
         #if (info.languages != none) [
             #let langs = ()
             #for lang in info.languages {
